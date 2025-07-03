@@ -2,10 +2,6 @@
 #include<math.h>
 #include<string.h>
 #define ll long long
-#define MAX 100000
-
-ll fibo[50] ; 
-
 int tong(int n){
 	int sum =  0 ; 
 	while(n>0){
@@ -13,14 +9,6 @@ int tong(int n){
 		n /= 10 ; 
 	}
 	return sum ; 
-}
-
-
-
-void swap(int *a , int *b){
-	int tmp = *a ; 
-	*a = *b ; 
-	*b = tmp ; 
 }
 
 int main(){
