@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <math.h>
+#include<stdio.h>
+#include<math.h>
 #define ll long long
 
 
@@ -18,5 +18,4 @@ int main() {
     while(t--){
         solve();
     }
-    return 0;
 }
